@@ -63,6 +63,34 @@ ResQLink addresses these challenges by providing a unified platform that simplif
 
 ---
 
+## 📦 Prototype Scope
+
+### ✅ Implemented in this Prototype
+The current prototype demonstrates the core emergency-response workflow with the following fully implemented features:
+
+- Web-based emergency reporting interface
+- Emergency type and severity selection
+- GPS-based location capture using browser APIs
+- Rule-based emergency intent detection
+- Unique incident ID generation and status tracking
+- Admin / dispatcher monitoring dashboard
+- Offline-aware UI feedback for low-network scenarios
+- Privacy-first handling of minimal and essential data
+
+---
+
+### 🚀 Final Product Vision
+The complete application is envisioned to extend the prototype with additional capabilities to improve accessibility, intelligence, and real-world impact:
+
+- Voice-based emergency reporting for hands-free usage
+- Multilingual support to serve diverse user populations
+- WhatsApp / SMS intake for non-smartphone and low-bandwidth users
+- Real-time incident updates using WebSockets
+- Live map-based tracking with ETA estimation
+- AI-assisted intent classification with confidence scoring and human fallback
+
+---
+
 ## 🛠️ Technology Stack
 
 - **Frontend:** React (Vite)
