@@ -1,0 +1,110 @@
+[
+  {
+    "id": "AMB-001",
+    "name": "Ambulance Unit Alpha",
+    "type": "medical",
+    "available": true,
+    "location": {
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "address": "City Hospital, Bengaluru"
+    },
+    "contact": {
+      "phone": "+911234567890",
+      "radio": "MED-ALPHA"
+    },
+    "capacity": "2 patients",
+    "equipment": ["Defibrillator", "Oxygen", "First Aid"],
+    "eta": "5-10 minutes"
+  },
+  {
+    "id": "AMB-002",
+    "name": "Ambulance Unit Bravo",
+    "type": "medical",
+    "available": true,
+    "location": {
+      "lat": 12.9758,
+      "lng": 77.5990,
+      "address": "Central EMS Station"
+    },
+    "contact": {
+      "phone": "+911234567891",
+      "radio": "MED-BRAVO"
+    },
+    "capacity": "4 patients",
+    "equipment": ["Advanced Life Support", "Ventilator", "Monitor"],
+    "eta": "8-12 minutes"
+  },
+  {
+    "id": "POL-001",
+    "name": "Police Patrol Charlie",
+    "type": "police",
+    "available": true,
+    "location": {
+      "lat": 12.9734,
+      "lng": 77.5901,
+      "address": "Central Police Station"
+    },
+    "contact": {
+      "phone": "+911234567892",
+      "radio": "POL-CHARLIE"
+    },
+    "officers": 2,
+    "equipment": ["First Aid", "Radio", "Protective Gear"],
+    "eta": "3-7 minutes"
+  },
+  {
+    "id": "POL-002",
+    "name": "Police Patrol Delta",
+    "type": "police",
+    "available": false,
+    "location": {
+      "lat": 12.9789,
+      "lng": 77.5973,
+      "address": "North Police Outpost"
+    },
+    "contact": {
+      "phone": "+911234567893",
+      "radio": "POL-DELTA"
+    },
+    "officers": 4,
+    "equipment": ["Advanced Equipment", "Vehicle"],
+    "eta": "10-15 minutes"
+  },
+  {
+    "id": "FIR-001",
+    "name": "Fire Engine Echo",
+    "type": "fire",
+    "available": true,
+    "location": {
+      "lat": 12.9698,
+      "lng": 77.5890,
+      "address": "Main Fire Station"
+    },
+    "contact": {
+      "phone": "+911234567894",
+      "radio": "FIR-ECHO"
+    },
+    "crew": 6,
+    "equipment": ["Water Tank", "Ladders", "Rescue Tools"],
+    "eta": "6-11 minutes"
+  },
+  {
+    "id": "FIR-002",
+    "name": "Fire Engine Foxtrot",
+    "type": "fire",
+    "available": true,
+    "location": {
+      "lat": 12.9832,
+      "lng": 77.6034,
+      "address": "West Fire Station"
+    },
+    "contact": {
+      "phone": "+911234567895",
+      "radio": "FIR-FOXTROT"
+    },
+    "crew": 4,
+    "equipment": ["Foam System", "Cutting Tools", "Medical"],
+    "eta": "9-14 minutes"
+  }
+]

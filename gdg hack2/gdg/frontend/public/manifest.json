@@ -1,0 +1,56 @@
+{
+  "short_name": "Emergency Response",
+  "name": "Emergency Response System",
+  "description": "Report emergencies quickly and track response in real-time",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#667eea",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["health", "productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Report Emergency",
+      "short_name": "Emergency",
+      "description": "Quick emergency report",
+      "url": "/?emergency=true",
+      "icons": [{ "src": "emergency-icon.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Emergency Reporting Interface"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile Emergency Report"
+    }
+  ]
+}
